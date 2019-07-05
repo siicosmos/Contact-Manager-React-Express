@@ -1,0 +1,28 @@
+version: '3'
+services:
+
+  # express web server
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile-web
+    command: npm run prodstart
+    # command change:
+      # on dev npm run devstart
+      # on prod npm run prodstart
+      # on default npm start
+    volumes:
+      - ./:/app
+      - /app/node_modules
+    ports:
+      - '8080:8000'
+      # change the port number:
+        # on dev 9000
+        # on prod 8000
+        # on default 7000
+
+  # we use mongoDB Atlas, it is on cloud so we don't need docker for the db
+  # database server
+  # db:
+  #   image: "postgres:latest"
+

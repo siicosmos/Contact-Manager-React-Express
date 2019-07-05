@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h1 Delete Contact: #{contact_detail.first_name} #{contact_detail.last_name}
+  br
+
+  p Are you sure about deleting contact for #[strong #{contact_detail.first_name} #{contact_detail.last_name}] ?
+
+  br
+  form(method='POST' action='')
+    div.form-group
+        input#id.form-control(type='hidden', name='id', required='true', value=contact_detail._id )
+    button.btn.btn-danger(type='submit') Delete

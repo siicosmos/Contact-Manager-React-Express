@@ -1,0 +1,31 @@
+extends layout
+
+block content
+  h1=title
+  br
+
+  form(method='POST' action='')
+    div.form-group.required
+      label(for="first_name") First Name:
+      input.form-control(type='text', placeholder='Mike' name='first_name' required='required' value=(undefined===contact ? '' : contact.first_name))
+    div.form-group.required
+      label(for="last name") Last Name:
+      input.form-control(type='text', placeholder='Lee' name='last_name' required='required' value=(undefined===contact ? '' : contact.last_name))
+    div.form-group
+      label(for="email") Email:
+      input.form-control(type='email', placeholder='mike_lee@any.com' name='email' value=(undefined===contact ? '' : contact.email))
+    div.form-group
+      label(for="phone_number") Phone Number:
+      input.form-control(type='tel', placeholder='123-456-7890' name='phone_number' value=(undefined===contact ? '' : contact.phone_number))
+    div.form-group
+      label(for="notes") Notes:
+      textarea.form-control(name='notes' value=(undefined===contact ? '' : contact.notes))
+    br
+    button.inline.btn.btn-primary(type='submit')=submit_button_name
+    p.inline  | 
+    a.inline(href='/'): button.btn.btn-warning(type='button') Cancel
+  if errors
+    br
+    ul
+      for error in errors
+        li!=error

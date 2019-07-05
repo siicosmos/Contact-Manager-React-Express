@@ -1,0 +1,38 @@
+extends layout
+
+block content
+  h1 #{contact_detail.first_name} #{contact_detail.last_name}
+  br
+
+  table.table
+    tbody
+      tr
+        th(scope='col') First Name
+        td(scope='col') #{contact_detail.first_name}
+      tr
+        th(scope='col') Last Name
+        td(scope='col') #{contact_detail.last_name}
+      tr
+        th(scope='col') Email
+        if contact_detail.email
+            td(scope='col') #{contact_detail.email}
+        else
+            td(scope='col') No email
+      tr
+        th(scope='col') Phone Number
+        if contact_detail.phone_number
+            td(scope='col') #{contact_detail.phone_number}
+        else
+            td(scope='col') No phone number
+      tr
+        th(scope='col') Notes
+        if contact_detail.notes
+            td(scope='col') #{contact_detail.notes}
+        else
+            td(scope='col') No notes
+  br
+  a.inline(href=contact_detail.url + '/update'): button.btn.btn-primary(type='button') Update
+  p.inline  | 
+  a.inline(href=contact_detail.url + '/delete'): button.btn.btn-danger(type='button') Delete
+  p.inline  | 
+  a.inline(href='/'): button.btn.btn-warning(type='button') Cancel
