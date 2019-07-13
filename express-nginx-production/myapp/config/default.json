@@ -1,0 +1,4 @@
+{
+    "port": "3000",
+    "db": "mymongomongodb+srv://contact-manager-admin:Es3U3fkZVA825gyl@cluster0-lhww0.mongodb.net/test?retryWrites=true&w=majority"
+}

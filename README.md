@@ -2,11 +2,11 @@
 
 A simple contact manager using Express.JS and React.JS with Docker
 
-* This is the master branch, access to the back-end folder **<a href="https://github.com/siicosmos/Contact-Manager-React-Express/tree/master/contact-manager-api" target="_blank">Click Here</a>**
+* This is the express-nginx-production branch, to access the application folder **<a href="https://github.com/siicosmos/Contact-Manager-React-Express/tree/express-nginx-production/contact-manager-api" target="_blank">Click Here</a>**
 
-* This is the master branch, access to the front-end folder **<a href="https://github.com/siicosmos/Contact-Manager-React-Express/tree/master/contact-manager-client" target="_blank">Click Here</a>**
+* To access
 
-* Access to the express-in-mvc branch **<a href="https://github.com/siicosmos/Contact-Manager-React-Express/tree/express-in-mvc" target="_blank">Click Here</a>**
+* To access the express-in-mvc branch **<a href="https://github.com/siicosmos/Contact-Manager-React-Express/tree/express-in-mvc" target="_blank">Click Here</a>**
 
 ### To-Do List
 
