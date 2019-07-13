@@ -1,6 +1,6 @@
 # Contact Manager in Express MVC with Docker
 
-A simple contact manger using Express.JS with Docker
+A simple contact manager using Express.JS with Docker
 
 ### Using npm to start the application
 
