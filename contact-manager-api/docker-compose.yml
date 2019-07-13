@@ -6,7 +6,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile-web
-    command: npm run prodstart
+    command: npm run devstart
     # command change:
       # on dev npm run devstart
       # on prod npm run prodstart
@@ -15,7 +15,7 @@ services:
       - ./:/app
       - /app/node_modules
     ports:
-      - '8080:8000'
+      - '8080:9000'
       # change the port number:
         # on dev 9000
         # on prod 8000
