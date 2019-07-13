@@ -8,6 +8,8 @@ A simple contact manager using Express.JS and React.JS with Docker
 
 * Access to the express-in-mvc branch **<a href="https://github.com/siicosmos/Contact-Manager-React-Express/tree/express-in-mvc" target="_blank">Click Here</a>**
 
+* Access to the express-nginx-production branch **<a href="https://github.com/siicosmos/Contact-Manager-React-Express/tree/express-nginx-production" target="_blank">Click Here</a>**
+
 ### To-Do List
 
 * Create React as front-end server
