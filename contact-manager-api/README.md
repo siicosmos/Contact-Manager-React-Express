@@ -6,15 +6,15 @@ To change the **docker-web.yml** as the required environment changes
 
 * on development: **`npm run devstart`**
 
-⋅⋅⋅ Access the app: **<a href="http://localhost:9000" target="_blank">localhost:9000</a>**
+⋅⋅⋅Access the app: **<a href="http://localhost:9000" target="_blank">localhost:9000</a>**
 
 * on production: **`npm run prodstart`**
 
-⋅⋅⋅ Access the app: **<a href="http://localhost:8000" target="_blank">localhost:8000</a>**
+⋅⋅⋅Access the app: **<a href="http://localhost:8000" target="_blank">localhost:8000</a>**
 
 * on default: **`npm start`**
 
-⋅⋅⋅ Access the app: **<a href="http://localhost:7000" target="_blank">localhost:7000</a>**
+⋅⋅⋅Access the app: **<a href="http://localhost:7000" target="_blank">localhost:7000</a>**
 
 ## Using Docker to start the application
 
