@@ -1,8 +1,17 @@
-# Contact-Manager-React-Express
-A simple contact manager which has Express as backend and React as frontend
+# Contact Manager in Express and React with Docker
 
-The fully working backend version is finished.
+A simple contact manager using Express.JS and React.JS with Docker
 
-The next step -> implement a frontend version
+* This is the master branch, access to the back-end folder **<a href="https://github.com/siicosmos/Contact-Manager-React-Express/tree/master/contact-manager-api" target="_blank">Click Here</a>**
 
-The final step -> merge the backend with the frontend as a full stack project
+* This is the master branch, access to the front-end folder **<a href="https://github.com/siicosmos/Contact-Manager-React-Express/tree/master/contact-manager-client" target="_blank">Click Here</a>**
+
+* Access to the express-in-mvc branch **<a href="https://github.com/siicosmos/Contact-Manager-React-Express/tree/express-in-mvc" target="_blank">Click Here</a>**
+
+### To-Do List
+
+* Create React as front-end server
+
+* Modify & connect existing express application to front-end server as back-end (maybe in SSR)
+
+* Deploy the project in production-like
