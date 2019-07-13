@@ -1,6 +1,6 @@
 # Contact Manager in Express as Back-End server and Nginx as Front-End server with Docker
 
-A simple contact manager using Express.JS and Nginx with Docker
+A simple contact manager using Express.JS and Nginx with Docker in production-like (use docker to start the application)
 
 ### Using npm to start the application
 
@@ -18,7 +18,7 @@ To change the **docker-web.yml** as the required environment changes
 
    Access the app: **<a href="http://localhost:7000" target="_blank">localhost:7000</a>**
 
-### Using Docker to start the application
+### Using Docker to start the application in production-like
 
 * Build and load app to docker: **`docker-compose build && docker-compose up`**
 
