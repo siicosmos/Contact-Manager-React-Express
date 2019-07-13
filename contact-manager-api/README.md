@@ -1,6 +1,8 @@
 # Contact Manager in Express MVC with Docker
 
-## Using npm to start the application
+A simple contact manger using Express.JS with Docker
+
+### Using npm to start the application
 
 To change the **docker-web.yml** as the required environment changes
 
@@ -16,7 +18,7 @@ To change the **docker-web.yml** as the required environment changes
 
    Access the app: **<a href="http://localhost:7000" target="_blank">localhost:7000</a>**
 
-## Using Docker to start the application
+### Using Docker to start the application
 
 * Build and load app to docker: **`docker-compose build && docker-compose up`**
 
